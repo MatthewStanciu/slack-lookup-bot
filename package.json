@@ -1,0 +1,23 @@
+{
+  "name": "slack-lookup-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to convert Slack User IDs to display names & vice versa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewStanciu/slack-lookup-bot.git"
+  },
+  "author": "MatthewStanciu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewStanciu/slack-lookup-bot/issues"
+  },
+  "homepage": "https://github.com/MatthewStanciu/slack-lookup-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.0.1"
+  }
+}
